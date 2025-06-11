@@ -1,0 +1,19 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+
+# SQLite database
+calculator_history.db
+
+# PyInstaller build artifacts
+build/
+dist/
+*.spec
+
+# IDE files
+.vscode/
+.idea/

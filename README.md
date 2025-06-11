@@ -18,24 +18,38 @@ A comprehensive calculator application built with PyQt5 that includes:
 - Responsive design
 - Error handling and user feedback
 
-## Installation
+## Deployment
 
+### Option 1: Source Distribution
 1. Clone the repository:
-```bash
-git clone <repository-url>
-cd All-in-One-Calculator
-```
-
+   ```bash
+   git clone <repository-url>
+   cd All-in-One-Calculator
+   ```
 2. Create a virtual environment (recommended):
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
 3. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Run the application:
+   ```bash
+   python main.py
+   ```
+
+### Option 2: Standalone Executable
+1. Ensure you have Python 3.7+ installed.
+2. Run the build script:
+   ```bash
+   python build.py
+   ```
+3. The standalone executable will be created in the `dist` folder.
+4. Run the executable:
+   - On Windows: Double-click `AllInOneCalculator.exe` in the `dist` folder.
+   - On macOS/Linux: Open a terminal, navigate to the `dist` folder, and run `./AllInOneCalculator`.
 
 ## Usage
 
